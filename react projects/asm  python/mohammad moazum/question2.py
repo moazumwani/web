@@ -1,0 +1,5 @@
+s=input('enter the string whose words you want to count:')
+words=s.split()
+print(words)
+n=len(words)
+print('number of words =',n)

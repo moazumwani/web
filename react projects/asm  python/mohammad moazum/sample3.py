@@ -1,0 +1,10 @@
+s='hello how are you'
+n=len(s)
+print(n)
+print(s[6:9])
+print(s[-1])
+print(s[ : :-1])
+words=s.split()
+print(words)
+print(words[-1])
+print(words[-1][-1])

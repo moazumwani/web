@@ -1,0 +1,9 @@
+l=[10,20,30,40,50,60];
+n=len(l)
+l1=l[:n//2]
+l2=l[n//2:]
+l3=zip(l1,l2)
+print(l3)
+#print(list(l3))
+d=dict(l3)
+print(d)
